@@ -12,13 +12,19 @@
             "email": "chris@yabhq.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/trthanhbk/CrudMaker"
+        }
+    ],
     "require": {
         "php": ">=5.6.4",
         "illuminate/support": "^5.3",
         "doctrine/dbal": "^2.5",
         "yab/formmaker": "^1.0",
         "yab/crypto": "^1.0",
-        "yab/crudmaker": "^1.1",
+        "trthanhbk/crudmaker": "^1.1",
         "yab/cerebrum": "^1.0",
         "yab/laratest": "^0.1"
     },
